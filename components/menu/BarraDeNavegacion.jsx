@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from '../public/json.svg'
+import logo from '../../public/json.svg'
 
 export default function BarraDeNavegacion() {
   return (
@@ -15,6 +15,9 @@ export default function BarraDeNavegacion() {
             <Image src={logo} width="50" alt="Logo de la página web" />
           </Link>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="/">Inicio</Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" href="/sobre-mi">Sobre mí</Link>
             </li>

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import perfil from '../public/foto-de-perfil.svg'
-import banner from '../public/computer.svg'
+import perfil from '../../public/foto-de-perfil.svg'
+import banner from '../../public/computer.svg'
 
 export default function Hero() {
   return (
