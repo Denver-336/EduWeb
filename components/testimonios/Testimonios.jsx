@@ -1,52 +1,57 @@
+import Image from "next/image";
+import cliente1 from '../../public/imagenes/clientes/cliente1.svg'
+import cliente2 from '../../public/imagenes/clientes/cliente2.svg'
+import cliente3 from '../../public/imagenes/clientes/cliente3.svg'
 
 export default function Testimonios() {
   return (
     // <!-- Testimonios -->
-    <section id="testimonios" class="testimonios seccion-clara">
-      <h2 class="seccion-titulo">Testimonios</h2>
-      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+    <section id="testimonios" className="testimonios seccion-clara text-center">
+      <h2 className="seccion-titulo display-2">Testimonios</h2>
+      <h3 className="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
 
       {/* <!-- Carrusel --> */}
-      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de Gino">
-                <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                <div class="testimonio-info">
-                  <p class="cliente">Gino</p>
-                  <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
-                </div>
+      <div id="testimonios-carrusel" className="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
+        <div className="carousel-inner">
+
+          <div className="carousel-item active">
+            <div className="container">
+              <Image className="testimonio-imagen rounded-circle" src={cliente1} alt="Foto de Gino" />
+              <p className="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div className="testimonio-info">
+                <p className="cliente">Gino</p>
+                <p className="cargo">Gerente de proyectos.</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
-                <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                <div class="testimonio-info">
-                  <p class="cliente">Nora</p>
-                  <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
-                </div>
+          <div className="carousel-item">
+            <div className="container">
+              <Image className="testimonio-imagen rounded-circle" src={cliente2} alt="Foto de Nora" />
+              <p className="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div className="testimonio-info">
+                <p className="cliente">Nora</p>
+                <p className="cargo">Gerente de diseño.</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
-                <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                <div class="testimonio-info">
-                  <p class="cliente">Leonardo</p>
-                  <p class="cargo">Director de AprendeAProgramar</p>
-                </div>
+          <div className="carousel-item">
+            <div className="container">
+              <Image className="testimonio-imagen rounded-circle" src={cliente3} alt="Foto de Leonardo" />
+              <p className="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div className="testimonio-info">
+                <p className="cliente">Leonardo</p>
+                <p className="cargo">Director ejecutivo.</p>
+              </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
+        <button className="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Anterior</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
+        <button className="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Siguiente</span>
         </button>
       </div>
     </section>
