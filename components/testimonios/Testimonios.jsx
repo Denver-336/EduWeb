@@ -11,7 +11,7 @@ export default function Testimonios() {
       <h3 className="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
 
       {/* <!-- Carrusel --> */}
-      <div id="testimonios-carrusel" className="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
+      <div id="testimonios-carrusel" className="carousel carousel-dark slide" data-bs-ride="carousel">
         <div className="carousel-inner">
 
           <div className="carousel-item active">

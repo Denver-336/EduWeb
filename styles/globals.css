@@ -408,6 +408,17 @@ footer {
   }
 }
 
+@media screen and (max-width: 425px) {
+  .testimonio-imagen {
+    height: 100px;
+    width: 100px;
+  }
+
+  .testimonio-texto {
+    font-size: .8rem;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
     max-width: 600px;
