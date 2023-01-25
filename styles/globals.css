@@ -3,7 +3,6 @@
 .navbar {
   padding: 2rem;
   background-color: #f5f6f7;
-  /* padding-bottom: 1rem; */
 }
 
 .navbar-collapse {
@@ -21,7 +20,7 @@ section {
 }
 
 h1 {
-  /* font-size: 2.5rem; */
+  font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive;
 }
 
@@ -36,8 +35,8 @@ h1 {
 }
 
 .seccion-titulo {
-  /* font-size: 2rem;
-  padding: 1rem 0; */
+  font-size: 2rem;
+  padding: 15px 0;
   font-family: 'Rubik Dirt', cursive;
 }
 
@@ -46,13 +45,13 @@ h1 {
   color: #584e4e;
 }
 
-/* .seccion-texto {
+.seccion-texto {
   font-size: 1.2rem;
-} */
+}
 
 .btn-info {
   font-size: 1.1rem;
-  margin: 1.25rem;
+  margin: 20px;
 }
 
 .texto-negro {
@@ -73,26 +72,24 @@ h1 {
 
 .hero-principal {
   padding: 3rem;
-  /* padding-top: 1rem; */
 }
 
 .hero-imagen-desarrollador {
   width: 200px;
-  height: auto;
-  margin: 1.25rem;
-  margin-bottom: 2rem;
+  height: 200px;
+  margin: 20px;
 }
 
 .hero-principal h2 {
-  /* font-size: 1.5rem; */
+  font-size: 1.5rem;
   color: #615151;
 }
 
 /* Sobre mi */
 
 .sobre-mi {
-  /* height: 500px; */
-  padding: .625rem;
+  height: 500px;
+  padding: 10px;
 }
 
 .sobre-mi .contenedor {
@@ -103,11 +100,11 @@ h1 {
 /* Experiencia */
 
 .experiencia {
-  padding: 2.5rem 2.5rem 3.75rem 2.5rem ;
+  padding: 40px 40px 60px 40px;
 }
 
 .experiencia .columna {
-  padding: 1.25rem;
+  padding: 20px;
   border: 2px solid #8080804d;
   display: flex;
   flex-direction: column;
@@ -125,30 +122,30 @@ h1 {
   font-size: 2.5rem;
   color: #7ade30;
   background-color: #0a0a23;
-  padding: .5rem 1.19rem;
+  padding: 8px 19px;
   border-radius: 50%;
 }
 
 .experiencia-titulo {
-  font-size: 1.56rem;
+  font-size: 25px;
   font-weight: bold;
-  margin: .625rem 0;
+  margin: 10px 0;
 }
 
 .badges-contenedor {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: bold;
-  margin: .625rem 0;
+  margin: 10px 0;
 }
 
 .badge {
-  margin: .31rem;
+  margin: 5px;
 }
 
 /* Proyectos */
 
 .proyectos-recientes {
-  padding: 2.25rem;
+  padding: 40px;
 }
 
 .proyectos-recientes img {
@@ -161,8 +158,8 @@ h1 {
 }
 
 .proyectos-contenedor {
-  padding-top: 3.75rem;
-  margin-bottom: 2.5rem;
+  padding-top: 60px;
+  margin-bottom: 40px;
 }
 
 .overlay {
@@ -176,7 +173,7 @@ h1 {
 }
 
 .overlay p {
-  font-size: 1.5625rem;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 0;
 }
@@ -199,21 +196,21 @@ h1 {
 
 .overlay i {
   color: black;
-  font-size: 3.75rem;
-  margin: 0.625rem;
+  font-size: 60px;
+  margin: 10px;
 }
 
 /* Articulos */
 
 .articulos {
   min-height: 500px;
-  padding: 1.875rem;
+  padding: 30px;
 }
 
 .articulos .card {
   width: 80%;
   max-width: 600px;
-  margin: 1.25rem;
+  margin: 20px;
 }
 
 .articulos .card-header {
@@ -223,7 +220,7 @@ h1 {
 /* Testimonios */
 
 .testimonios {
-  padding: 2.5rem 2.5rem 5rem 2.5rem;
+  padding: 40px 40px 80px 40px;
 }
 
 .testimonios .carousel {
@@ -246,12 +243,12 @@ h1 {
 .testimonio-imagen {
   height: 150px;
   width: 150px;
-  margin: 0.625rem 0.625rem 1.25rem 0.625rem ;
+  margin: 10px 10px 20px 10px;
 }
 
 .testimonio-texto {
   max-width: 70%;
-  font-size: 1.25rem;
+  font-size: 20px;
   text-align: center;
   font-family: 'Share Tech Mono', monospace;
 }
@@ -279,7 +276,7 @@ h1 {
 .contacto .container {
   max-width: 1100px;
   min-height: 200px;
-  padding: 1.25rem;
+  padding: 20px;
 }
 
 .contacto .rectangulo {
@@ -306,7 +303,7 @@ h1 {
   background-color: transparent;
   border: 2px solid white;
   padding: 1.25em 2em;
-  margin: .625rem;
+  margin: 10px;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
 }
@@ -335,13 +332,13 @@ footer {
 .footer-logo {
   height: 80px;
   width: 80px;
-  margin: .625rem;
+  margin: 10px;
 }
 
 .footer-texto {
   font-size: 1.5rem;
-  padding: 1.25rem;
-  margin-bottom: 1.875rem;
+  padding: 20px;
+  margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -352,7 +349,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 2px;
-  margin: .625rem;
+  margin: 10px;
   border: 2px solid white;
   border-radius: 50%;
   transition: all 0.2s ease-in;
@@ -374,20 +371,20 @@ footer {
 }
 
 .derechos-de-autor {
-  font-size: 1rem;
+  font-size: 15px;
   color: #aeaeae;
-  padding: 1.125rem;
+  padding: 20px;
 }
 
 /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 400px) {
   .overlay p {
-    font-size: 1.125rem;
+    font-size: 18px;
   }
 
   .overlay i {
-    font-size: 2.5rem;
+    font-size: 40px;
   }
 }
 
@@ -404,18 +401,7 @@ footer {
   }
 
   .testimonio-texto {
-    font-size: 1.125rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .testimonio-imagen {
-    height: 100px;
-    width: 100px;
-  }
-
-  .testimonio-texto {
-    font-size: .8rem;
+    font-size: 18px;
   }
 }
 
