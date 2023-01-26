@@ -19,16 +19,16 @@ export default function BarraDeNavegacion() {
               <Link className="nav-link active" aria-current="page" href="/">Inicio</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="/sobre-mi">Sobre mí</Link>
+              <Link className="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/proyectos">Proyectos</Link>
+              <Link className="nav-link" href="#proyectos">Proyectos</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/testimonios">Testimonios</Link>
+              <Link className="nav-link" href="#testimonios">Testimonios</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/contacto">Contacto</Link>
+              <Link className="nav-link" href="#contacto">Contacto</Link>
             </li>
           </ul>
         </div>

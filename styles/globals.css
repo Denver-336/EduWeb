@@ -88,7 +88,6 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-  height: 500px;
   padding: 10px;
 }
 
@@ -325,9 +324,6 @@ h1 {
 
 /* Pie de pagina (footer) */
 
-footer {
-  min-height: 500px;
-}
 
 .footer-logo {
   height: 80px;
