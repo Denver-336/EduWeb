@@ -9,15 +9,10 @@ import Contacto from "@/components/Contacto/contacto";
 export default function Home() {
   return (
     <>
-      
       <Hero />
-      
       <About />
-      
       <Experiencia />
-      
       <Proyectos />
-    
       <Testimonios />
       <br /><br />
       <Contacto />
