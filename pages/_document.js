@@ -1,4 +1,5 @@
 import { Html, Main, NextScript, Head } from 'next/document'
+import logo from '../public/imagenes/json.svg'
 
 export default function Document() {
 
@@ -11,7 +12,7 @@ export default function Document() {
         <meta name='keywords' content='HTML, CSS, JavaScript, React, Next.js, Bootstrap' />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* favicon */}
-        <link rel='shortcut icon' href='public\imagenes\json.svg' />
+        <link rel='shortcut icon' href={logo} />
         {/* estilos de fuente */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
