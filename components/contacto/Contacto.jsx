@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function contacto() {
+export default function Contacto() {
   return (
     <section id="contacto" className="contacto seccion-oscura">
       <div className="container">
