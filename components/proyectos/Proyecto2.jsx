@@ -10,10 +10,10 @@ export default function Proyecto2() {
         <div className="overlay">
           <p>Proyecto 2</p>
           <div className="iconos-contenedor">
-            <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/Denver-336/formularios" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-github"></i>
             </Link>
-            <Link href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://formularios-jade.vercel.app/" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-laptop"></i>
             </Link>
           </div>
