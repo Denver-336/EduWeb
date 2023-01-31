@@ -13,7 +13,7 @@ export default function Proyecto2() {
             <Link href="https://github.com/Denver-336/formularios" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-github"></i>
             </Link>
-            <Link href="https://formularios-jade.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://formularios-alpha-six.vercel.app/" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-laptop"></i>
             </Link>
           </div>
