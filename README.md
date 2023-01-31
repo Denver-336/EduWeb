@@ -12,5 +12,3 @@
 - Next.js
 - Node.js
 - Bootstrap
-
-### Se desplegó em la plataforma de Vercel.
