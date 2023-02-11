@@ -8,7 +8,7 @@ export default function Proyecto1() {
       <div className="proyecto">
         <Image src={proyecto1} alt="Proyecto 1" />
         <div className="overlay">
-          <p>Proyecto 1</p>
+          <p>EDsoft</p>
           <div className="iconos-contenedor">
             <Link href="https://github.com/Denver-336/DenveDev" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-github"></i>

@@ -8,7 +8,7 @@ export default function Proyecto2() {
       <div className="proyecto">
         <Image src={proyecto2} alt="Proyecto 1" />
         <div className="overlay">
-          <p>Proyecto 2</p>
+          <p>Formularios</p>
           <div className="iconos-contenedor">
             <Link href="https://github.com/Denver-336/formularios" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-github"></i>
