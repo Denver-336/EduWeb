@@ -8,12 +8,12 @@ export default function Proyecto4() {
       <div className="proyecto">
         <Image src={proyecto4} alt="Proyecto 1" />
         <div className="overlay">
-          <p>Proyecto 4</p>
+          <p>Mercado Cripto</p>
           <div className="iconos-contenedor">
-            <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/Denver-336/mercadocripto" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-github"></i>
             </Link>
-            <Link href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://mercadocripto.vercel.app/" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-laptop"></i>
             </Link>
           </div>
