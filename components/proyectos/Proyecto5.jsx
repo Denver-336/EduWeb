@@ -8,12 +8,12 @@ export default function Proyecto5() {
       <div className="proyecto">
         <Image src={proyecto5} alt="Proyecto 1" />
         <div className="overlay">
-          <p>Proyecto 5</p>
+          <p>Marvel</p>
           <div className="iconos-contenedor">
-            <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/Denver-336/edutube" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-github"></i>
             </Link>
-            <Link href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://edutube.vercel.app" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-laptop"></i>
             </Link>
           </div>

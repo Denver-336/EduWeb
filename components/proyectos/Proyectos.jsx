@@ -16,11 +16,11 @@ export default function Proyectos() {
       {/* <!-- Galeria de Proyectos --> */}
       <div className="container text-center proyectos-contenedor">
         <div className="row">
-          <Proyecto1 />
-          <Proyecto2 />
           <Proyecto3 />
+          <Proyecto1 />
           <Proyecto4 />
           <Proyecto5 />
+          <Proyecto2 />
           <Proyecto6 />
         </div>
       </div>
