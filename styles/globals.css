@@ -1,3 +1,105 @@
+@font-face {
+  font-family: "titulo-h1";
+  src: url("/fuentes/Ubuntu-Bold.ttf");
+  font-weight: bold;
+  size: 48px;
+  line-height: 140%;
+}
+
+@font-face {
+  font-family: "titulo-h2";
+  src: url("/fuentes/Ubuntu-Bold.ttf");
+  font-weight: bold;
+  size: 40px;
+  line-height: 140%;
+}
+
+@font-face {
+  font-family: "titulo-h3";
+  src: url("/fuentes/Ubuntu-Bold.ttf");
+  font-weight: bold;
+  size: 32px;
+  line-height: 140%;
+}
+
+@font-face {
+  font-family: "titulo-h4";
+  src: url("/fuentes/Ubuntu-Bold.ttf");
+  font-weight: bold;
+  size: 21px;
+  line-height: 140%;
+}
+
+@font-face {
+  font-family: "bigger-regular";
+  src: url("/fuentes/Manrope-Regular.ttf");
+  font-weight: normal;
+  size: 18px;
+  line-height: 180%;
+}
+
+@font-face {
+  font-family: "bigger-semibold";
+  src: url("/fuentes/Manrope-SemiBold.ttf");
+  font-weight: normal;
+  size: 18px;
+  line-height: 180%;
+}
+
+@font-face {
+  font-family: "normal-regular";
+  src: url("/fuentes/Manrope-Regular.ttf");
+  font-weight: normal;
+  size: 16px;
+  line-height: 180%;
+}
+
+@font-face {
+  font-family: "normal-semibold";
+  src: url("/fuentes/Manrope-SemiBold.ttf");
+  font-weight: normal;
+  size: 16px;
+  line-height: 180%;
+}
+
+@font-face {
+  font-family: "small-regular";
+  src: url("/fuentes/Manrope-Regular.ttf");
+  font-weight: normal;
+  size: 14px;
+  line-height: 180%;
+}
+
+@font-face {
+  font-family: "small-semibold";
+  src: url("/fuentes/Manrope-SemiBold.ttf");
+  font-weight: normal;
+  size: 14px;
+  line-height: 180%;
+}
+
+html {
+  --color-100: #DFEDFF;
+  --color-200: #BEDDEF;
+  --color-300: #9FCDDE;
+  --color-400: #81BECD;
+  --color-500: #65AEBC;
+  --color-600: #508A95;
+  --color-700: #3B666E;
+  --color-800: #274248;
+  --color-900: #10181A;
+
+  --color-title: #273B49;
+  --color-text: #687782;
+  --color-light: #8E9BA4;
+  --color-lighter: #B7C0C7;
+  --color-border: #ECF0F3;
+  --color-bgalt: #F9FAFB;
+  --color-bg: #FBFDFE;
+}
+
+
+
 /* Barra de navegacion */
 
 .navbar {
