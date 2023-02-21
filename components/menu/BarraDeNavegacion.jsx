@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from '../../public/imagenes/json.svg'
+import logo from '../../public/images/json.svg'
 
 export default function BarraDeNavegacion() {
   return (

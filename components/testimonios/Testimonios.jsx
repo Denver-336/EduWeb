@@ -1,7 +1,7 @@
 import Image from "next/image";
-import cliente1 from '../../public/imagenes/clientes/cliente1.svg'
-import cliente2 from '../../public/imagenes/clientes/cliente2.svg'
-import cliente3 from '../../public/imagenes/clientes/cliente3.svg'
+import cliente1 from '../../public/images/clientes/cliente1.svg'
+import cliente2 from '../../public/images/clientes/cliente2.svg'
+import cliente3 from '../../public/images/clientes/cliente3.svg'
 
 export default function Testimonios() {
   return (

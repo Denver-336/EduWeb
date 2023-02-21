@@ -1,4 +1,4 @@
-import proyecto6 from '../../public/imagenes/proyectos/proyecto6.png'
+import proyecto6 from '../../public/images/proyectos/proyecto6.png'
 import Image from "next/image";
 import Link from "next/link";
 
