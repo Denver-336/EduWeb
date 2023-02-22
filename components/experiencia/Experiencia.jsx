@@ -1,13 +1,13 @@
-import BackEnd from "./BackEnd";
-import Estudios from "./Estudios";
-import FrontEnd from "./FrontEnd";
+import BackEnd from './BackEnd'
+import Estudios from './Estudios'
+import FrontEnd from './FrontEnd'
 
-export default function Experiencia() {
+export default function Experiencia () {
   return (
     // <!-- Experiencia -->
-    <section className="experiencia seccion-clara">
-      <div className="container text-center">
-        <div className="row">
+    <section className='experiencia seccion-clara'>
+      <div className='container text-center'>
+        <div className='row'>
           <FrontEnd />
           <BackEnd />
           <Estudios />
