@@ -22,7 +22,7 @@ export default function Banner () {
               </div>
             </div>
             <div className='col-sm-6'>
-              <Image src={perfil} className='img-fluid rounded-start' alt='banner' priority />
+              <Image src={perfil} className='img-fluid rounded float-end' height={450} alt='banner' priority />
             </div>
           </div>
         </div>
