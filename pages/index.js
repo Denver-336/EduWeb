@@ -18,6 +18,7 @@ export default function Home () {
       <Experiencia />
       <Proyectos />
       {/* <Testimonios /> */}
+      <br />
       <Contacto />
       <Footer />
     </main>
