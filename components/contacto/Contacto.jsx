@@ -50,18 +50,18 @@ export default function Contacto () {
               <form id='mensaje' action='https://formsubmit.co/58460838dbbda6f0f3d986fa29b6150b' method='POST'>
                 <div className='mb-3'>
                   <label htmlFor='exampleFormControlInput1' className='form-label'>Nombre</label>
-                  <input type='texto' className='form-control' id='exampleFormControlInput1' name='name' required />
+                  <input type='texto' className='form-control' id='exampleFormControlInput1' name='name' required defaultValue='' />
                 </div>
                 <div className='mb-3'>
                   <label htmlFor='exampleFormControlInput1' className='form-label'>Correo</label>
-                  <input type='email' className='form-control' id='exampleFormControlInput1' name='email' required />
+                  <input type='email' className='form-control' id='exampleFormControlInput1' name='email' required defaultValue='' />
                 </div>
                 <div className='mb-3'>
                   <label htmlFor='exampleFormControlTextarea1' className='form-label'>Mensaje</label>
-                  <textarea className='form-control' id='exampleFormControlTextarea1' rows='3' name='comments' />
+                  <textarea className='form-control' id='exampleFormControlTextarea1' rows='3' name='comments' defaultValue='' />
                 </div>
-                <input type='hidden' name='_next' value='https://edu-web-denver-336.vercel.app/' />
                 <input type='hidden' name='_captcha' value='false' />
+                {/* <input type='hidden' name='_next' value='https://yourdomain.co/thanks.html' /> */}
               </form>
             </div>
             <div className='modal-footer justify-content-start'>
