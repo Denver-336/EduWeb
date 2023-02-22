@@ -22,7 +22,7 @@ export default function BarraDeNavegacion () {
               <Link className='nav-link' href='#sobre-mi'>Sobre mí</Link>
             </li>
           </ul>
-          <Link className='btn btn-primary menu_btn' type='button' href='#contacto'>Trabajemos juntos</Link>
+          <Link className='btn btn-primary' type='button' href='#contacto'>Trabajemos juntos</Link>
         </div>
       </div>
     </nav>

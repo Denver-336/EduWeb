@@ -1,4 +1,5 @@
-@import './Menu.css';
+@import './Botones.css';
+@import './Iconos.css';
 
 html {
   --color-100: #DFEDFF;

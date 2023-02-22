@@ -1,0 +1,35 @@
+
+.btn-primary {
+  background-color: var(--color-500);
+  color: var(--color-100);
+  border-color: var(--color-100);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-100);
+  color: var(--color-600);
+  border-color: var(--color-600);
+}
+
+.btn-secondary {
+  background-color: var(--color-100);
+  color: var(--color-500);
+  border-color: var(--color-500);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-600);
+  color: var(--color-100);
+  border-color: var(--color-100);
+}
+
+.btn-outline-primary {
+  color: var(--color-500);
+  border-color: transparent;
+}
+
+.btn-outline-primary:hover {
+  background-color: transparent;
+  color: var(--color-300);
+  border-color: var(--color-500);
+}
