@@ -8,7 +8,7 @@ export default function Proyecto4 () {
       <div className='proyecto'>
         <Image src={proyecto4} alt='Proyecto 1' />
         <div className='overlay'>
-          <p>Mercado Cripto</p>
+          <p>El rey del termo</p>
           <div className='iconos-contenedor'>
             <Link href='https://github.com/Denver-336/elreydeltermo' target='_blank' rel='noopener noreferrer'>
               <i className='bi bi-github' />

@@ -8,7 +8,7 @@ export default function Proyecto5 () {
       <div className='proyecto'>
         <Image src={proyecto5} alt='Proyecto 1' />
         <div className='overlay'>
-          <p>Marvel</p>
+          <p>Tenaz</p>
           <div className='iconos-contenedor'>
             <Link href='https://github.com/Denver-336/tenaz' target='_blank' rel='noopener noreferrer'>
               <i className='bi bi-github' />
