@@ -10,10 +10,10 @@ export default function Proyecto4 () {
         <div className='overlay'>
           <p>Mercado Cripto</p>
           <div className='iconos-contenedor'>
-            <Link href='https://github.com/Denver-336/mercadocripto' target='_blank' rel='noopener noreferrer'>
+            <Link href='https://github.com/Denver-336/elreydeltermo' target='_blank' rel='noopener noreferrer'>
               <i className='bi bi-github' />
             </Link>
-            <Link href='https://mercadocripto.vercel.app/' target='_blank' rel='noopener noreferrer'>
+            <Link href='https://elreydeltermo-production.up.railway.app' target='_blank' rel='noopener noreferrer'>
               <i className='bi bi-laptop' />
             </Link>
           </div>

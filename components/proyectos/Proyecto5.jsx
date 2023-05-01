@@ -10,10 +10,10 @@ export default function Proyecto5 () {
         <div className='overlay'>
           <p>Marvel</p>
           <div className='iconos-contenedor'>
-            <Link href='https://github.com/Denver-336/edutube' target='_blank' rel='noopener noreferrer'>
+            <Link href='https://github.com/Denver-336/tenaz' target='_blank' rel='noopener noreferrer'>
               <i className='bi bi-github' />
             </Link>
-            <Link href='https://edutube.vercel.app' target='_blank' rel='noopener noreferrer'>
+            <Link href='https://tenaz.vercel.app' target='_blank' rel='noopener noreferrer'>
               <i className='bi bi-laptop' />
             </Link>
           </div>
