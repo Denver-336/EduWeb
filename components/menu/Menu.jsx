@@ -13,7 +13,7 @@ export default function BarraDeNavegacion () {
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav m-auto mb-2 mb-sm-0'>
             <li className='nav-item'>
-              <Link className='nav-link' id='nav' aria-current='page' href='#inicio'>Inicio</Link>
+              <Link className='nav-link' id='nav' aria-current='page' href='/'>Inicio</Link>
             </li>
             <li className='nav-item'>
               <Link className='nav-link' href='#proyectos'>Proyectos</Link>
